@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Apptron Assignment</title>
+</head>
+<body>
+
+    <!-- task # 1 -->
+    <!-- <script>
+    var username = prompt("What is Your Name");
+    alert("Hi "+username);
+    </script>
+     -->
+
+     <!-- task # 2 -->
+<!-- <script>
+    var table = prompt("Enter Number");
+    table=parseFloat(table);
+    if(table)
+    {   
+        for(i=1;i<11;i++)
+        {
+            var z= table*i;
+            document.write(table+" X "+i+" = " +z+"<br>");
+        }
+
+    }
+    else
+    {
+        var r= 5;
+    r=parseFloat(r);
+      
+        for(i=1;i<11;i++)
+        {
+            var z= r*i;
+            document.write(r+" X "+i+" = " +z+"<br>");
+        }
+
+    
+        
+    }
+</script>  -->
+
+<!-- Task # 3
+<script>
+
+    var cityname=prompt("Enter City Name")
+
+    if(cityname=="karachi"||cityname=="Karachi")
+    {
+        alert("Welcome to the City Of Lights");
+    }
+    else
+    {
+        alert("Welcome to "+cityname);
+    }
+</script> -->
+<!-- task 4
+<script>
+
+        var Gender=prompt("Enter Gender")
+    
+        if(Gender=="male"||Gender=="Male")
+        {
+            alert("Good Morning Sir");
+        }
+        else if ((Gender=="female")||(Gender=="Female"))
+        {
+            alert("Good Morning Ma'am");
+        }
+    </script> --> 
+
+    <!-- task 5
+    <script>
+
+            var SignalColor=prompt("Enter Signal color")
+        
+            if(SignalColor=="red"||SignalColor=="Red")
+            {
+                alert("vehicles must stop");
+            }
+            else if (SignalColor=="yellow"||SignalColor=="Red")
+            {
+                alert("vehicles should get ready to move");
+            }
+            else if (SignalColor=="green"||SignalColor=="Green")
+            {
+                alert("vehicles can move now");
+            }
+            else
+            {
+                alert("Please Enter Color of Signal Light");
+            }
+        </script> -->
+
+        <!-- task 6
+        <script>
+        var maxAge= prompt("Enter Max Age");
+        maxAge=parseFloat(maxAge);
+        var currentAge= prompt("Enter Current Age");
+        currentAge=parseFloat(currentAge);
+
+        if(currentAge<=maxAge)
+        {
+            alert("You Are Welcome");
+        }
+        else
+        {
+            alert("You Are Not Welcome");
+        }
+        </script> -->
+
+        <!-- task 7 
+        <script>
+        var fuelinCar= prompt("Current Fuel in Car");
+        fuelinCar = parseFloat(fuelinCar);
+
+        if(fuelinCar<0.25)
+        {
+            alert("Please refill the fuel in your car")
+        }
+        else
+        {
+            alert("Your current fuel in car is "+fuelinCar);
+        }
+        
+        </script> -->
+
+        <!-- task 8 -->
+        <!-- <script>
+        
+//         var a = 4;
+// if (++a === 5){
+//  alert("given condition for variable a is true");
+// } /**In this Situation the value of a will be 5 which is equal to 5 and the condition will be true.
+//  First the value of a is 4 but in loop ++ will add one and when it will compare the equation it will return true.**/
+
+/*  Case # 2*/
+// var b = 82;
+// if (b++ === 83){
+//  alert("given condition for variable b is true");
+// }/* In this Condition Loop will not will not run the alert function.
+// the reason is because in this condition the loop will first check the value
+// of B and after that it will add the value +1 in B so because of this the condition is not True*/
+
+/*Case # 3 */
+// var c = 12;
+// if (c++ === 13){
+//  alert("condition 1 is true");
+// }/*Same as defined above this loop will not run because firstly 12===13 but in this case c = 12 will become c=13 because
+// of c++*/
+// if (c === 13){
+//  alert("condition 2 is true");
+// }/*Now this equation is true because of c++ now c =13 and c===13 this condition is true this alert function
+// will run*/
+// if (++c < 14){
+//  alert("condition 3 is true");
+// }/*as above explained ++c will first add then compare so when it add +1 into c  which is 13 now it will become 14
+// so 14 < 14 this is not true so alert function will not run*/
+// if(c === 14){
+//  alert("condition 4 is true");
+// }/*yes because of above ++c now c = 14 and this condition is true.*/
+
+// //Case # 4
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+//  alert("The cost equals");
+// }/*This condition is true*/
+
+// /*case 5*/
+// if (true){
+//  alert("True");
+// }
+// if(false){
+//  alert("False"); by default its true.
+// }
+/*case 6*/
+
+// if("car" < "cat"){
+//  alert("car is smaller than cat");
+// }
+/* The loop will run and its a true situation because accord to if we convert character to ascii code the value
+of "r" is 114 and "t" is 116 so yup its a true situation*/
+
+        </script> -->
+
+       <!-- task 9 -->
+       
+       <!-- <script>
+        
+           var EnglishMarks = prompt("Please Enter English Marks");
+           EnglishMarks = parseFloat(EnglishMarks);
+
+           var MathsMarks = prompt("Please Enter English Marks");
+           MathsMarks = parseFloat(MathsMarks);
+
+           var UrduMarks = prompt("Please Enter English Marks");
+           UrduMarks = parseFloat(UrduMarks);
+            var fullmarks = 300;
+           var totalMarks = EnglishMarks + MathsMarks + UrduMarks;
+
+           var Average = totalMarks/300;
+
+           var percentage = Average * 100;
+
+           if (percentage >= 80)
+           {
+               document.write("<b>Total Marks</b>:"+fullmarks+"<br>"+"<b>Marks Obtained</b>:"+totalMarks+"<br>"+"<b>Grade</b>: A-One"+"<br>"+"<b>Percentage</b>:"+percentage+"%"+"<br>"+"<b>Remarks</b>: Excellent");
+           }
+           else if (percentage >= 70)
+           {
+               document.write("<b>Total Marks</b>:"+fullmarks+"<br>"+"<b>Marks Obtained</b>:"+totalMarks+"<br>"+"<b>Grade</b>: A"+"<br>"+"<b>Percentage</b>:"+percentage+"%"+"<br>"+"<b>Remarks</b>: Good");
+           }
+           else if (percentage >= 60)
+           {
+               document.write("<b>Total Marks</b>:"+fullmarks+"<br>"+"<b>Marks Obtained</b>:"+totalMarks+"<br>"+"<b>Grade</b>: B"+"<br>"+"<b>Percentage</b>:"+percentage+"%"+"<br>"+"<b>Remarks</b>: You need to improve");
+           }
+           else if(percentage>100){
+               document.write("Invalid Numbers")
+
+           }
+           else{
+               document.write("Sorry");
+           }
+
+
+        </script> -->
+
+        <!-- task 10
+        <script>
+         
+         
+
+         var priceofitemone = 700;
+         var priceofitemtwo = 1000;
+
+         var quantityofitemOne = prompt("Please Enter Quantity Of USB");
+         quantityofitemOne=parseInt(quantityofitemOne);
+
+         var sumofitemOne = priceofitemone * quantityofitemOne; 
+
+         var quantityofitemtwo = prompt("Please Enter Quantity Of T-Shirt");
+         quantityofitemtwo=parseInt(quantityofitemtwo);
+
+         var sumofitemTwo = priceofitemtwo * quantityofitemtwo;
+
+         var shippingcharges = 250;
+
+         var totalOrder = sumofitemOne + sumofitemTwo + shippingcharges;
+
+         var Discounted = totalOrder* 0.1;
+
+         Discounted= totalOrder - Discounted;
+
+         document.write("Price Of T-Shirt is "+priceofitemtwo+"<br>");
+         document.write("Price Of USB is "+priceofitemone+"<br>");
+         document.write("Quantiy Of T-Shirt is "+quantityofitemtwo+"<br>");
+         document.write("Quantiy Of USB is "+quantityofitemOne+"<br>");
+         document.write("Shipping Charges is "+shippingcharges+"<br>");
+         document.write("Quantiy Of T-Shirt is "+quantityofitemtwo+"<br>");
+         document.write("Total Cost Of Your Order is "+totalOrder+" PKR<br>");
+         document.write("Discounted Price is "+Discounted+" PKR<br>");
+
+         
+        
+        </script> -->
+
+        <!-- task 11 -->
+        <!-- <script>
+         var input = prompt("Please Enter Value from 1-10");
+         input = parseInt(input);
+         var answer = prompt("Guess");
+         answer = parseInt(answer);
+         
+        
+
+         if (input==answer-1 || input===answer+1)
+         {
+             alert("You are Close")
+         }
+         else if (input = answer ){
+             alert("“Bingo! Correct answer”. ");
+         }
+        
+        </script> -->
+
+        <!-- task 12
+        <script>
+        
+        var number = prompt("Enter Number So the Machine can tell you whether the num is divisble by 3 or not");
+        number= parseInt(number);
+
+        if(number%3==0)
+        {
+            document.write("can be divide");
+        }
+        else
+        {
+            document.write("can not be divide");
+        }
+        </script> -->
+
+        <!-- task 13
+        <script>
+        
+        var teamOneName = prompt("Enter Team One Name");
+        var teamTwoName = prompt("Enter Team Two Name");
+
+        var teamOneScore = prompt("Enter Team One Score");
+        teamOneScore=parseInt(teamOneScore);
+
+        var teamTwoScore = prompt("Enter Team Two Score");
+        teamTwoScore=parseInt(teamTwoScore);
+
+        if( teamOneScore > teamTwoScore)
+        {
+            alert(teamOneName+" has Won the match")
+        }
+        else if( teamOneScore < teamTwoScore)
+        {
+            alert(teamTwoName+" has Won the match")
+        }
+        else if (teamOneScore = teamTwoScore)
+        {
+            alert("Tied")
+        }
+
+
+
+
+        
+        </script> -->
+
+
+        <!-- task 14 -->
+        <!-- <script>
+        
+        var city = "Pakistan";
+        var question = true;
+        var pi = 3.14;
+    
+      var input = prompt("Enter")
+      if(input==city)
+      {
+          document.write(city+"\n"+typeof(city));
+      }
+     
+      else if (input==pi)
+      {
+        document.write(typeof(pi));
+      }
+      else if (input=question)
+      {
+          document.write(question+"\n" +typeof(question));
+      } 
+        
+      
+    
+      
+      
+        
+        </script> -->
+
+        <!-- task 15
+
+<script>
+var input = prompt("Enter Num");
+input=parseInt(input);
+
+if(input%2==0)
+{
+    alert("Even");
+}
+else 
+{
+    alert("odd");   
+}
+
+</script> -->
+
+<!-- task 16 -->
+<!-- <script>
+
+    var temperature = prompt("Enter Temperature");
+    temperature=parseInt(temperature);
+
+    if(temperature>40)
+    {
+
+        alert("It is too hot outside.")
+    }
+    else if(temperature>30)
+    {
+
+        alert("The Weather today is Normal.")
+    }
+    else if(temperature>20)
+    {
+
+        alert("Today’s Weather is cool.")
+    }
+    else if(temperature>10)
+    {
+
+        alert("OMG! Today’s weather is so Cool.")
+    }
+    else if(isNaN(temperature))
+    {
+
+        alert("Please Enter 10-40 temperature")
+    }
+    
+    
+
+
+</script> -->
+
+<!-- task 17 -->
+<!-- <script>
+
+    var input1= prompt("Enter Input One");
+    input1=parseFloat(input1);
+
+     var input2= prompt("Enter Input One");
+    input2=parseFloat(input2);
+
+    var operators=prompt("Select Operation + - / *")
+
+    if(operators=="+")
+    {
+        var total = input1 + input2;
+        alert(input1+"+"+input2+"="+total);
+    }
+    else if(operators=="-")
+    {
+        var total = input1 - input2;
+        alert(input1+"-"+input2+"="+total);
+    }
+    else if(operators=="/")
+    {
+        var total = input1 /input2;
+        alert(input1+"/"+input2+"="+total);
+    }
+    else if(operators=="*")
+    {
+        var total = input1 * input2;
+        alert(input1+"*"+input2+"="+total);
+    }
+    else if(operators=="%")
+    {
+        var total = input1 % input2;
+        alert(input1+"%"+input2+"="+total);
+    }
+
+
+
+</script> -->
+
+<!-- task 18 -->
+
+<!-- <script>
+
+  
+    var weekdays = prompt("Enter Day");
+
+    if(weekdays=="Monday"||weekdays=="Tuesday"||weekdays=="Wednesday"||weekdays=="Thursday"||weekdays=="Friday")
+    {
+        alert("It’s a week day")
+    }
+    else if (weekdays=="Saturday")
+    {
+        alert(" It’s weekend");
+    }
+    else if (weekdays=="Sunday")
+    {
+        alert(" Yay! It’s a holiday");
+    }
+
+
+
+</script> -->
+
+<!-- task 19 -->
+<!-- <script>
+
+    var numbers = prompt("Enter Marks")
+    numbers=parseInt(numbers);
+    if(numbers>=50)
+    {
+        alert("You are Passed")
+    }
+    else
+    {
+        alert("You are Failed")
+    }
+</script> -->
+
+<!-- task 20 -->
+<!-- <script>
+var A = prompt("Enter Num One");
+A=parseFloat(A);
+var B = prompt("Enter Num Two");
+B=parseFloat(B);
+
+if(A>B)
+{
+    alert("The Greater number among "+ A +" and "+B+" is "+A+"");
+}
+else
+{
+    alert("The Greater number among "+ A +" and "+B+" is "+B+"");
+}
+
+
+
+
+
+</script> -->
+
+<!-- task 21
+
+
+    <script>
+        
+       
+    var language = prompt("Enter Language");
+
+    if(language=="es")
+    {
+        alert("Hello World");
+    }
+    else if (language=="du")
+    {
+        alert("Hej Verden");
+    }
+    else if (language=="Bu")
+    {
+        alert("Здравей свят");
+    }
+
+
+  
+    
+    
+    </script> -->
+
+    <!-- task 22
+
+    <script>
+    
+    var numbers=prompt("Enter a Number");
+    numbers=parseFloat(numbers);
+
+    if(numbers >=0)
+    {
+        alert("Positive")
+    }
+    else if(numbers <0)
+    {
+        alert("Negative")
+    }
+
+
+    
+    </script> -->
+<!-- task 23
+<script>
+    var inputnumber = prompt("Enter Numbers");
+    inputnumber=parseInt(inputnumber);
+
+    var inputnoun = prompt("Enter Noun");
+    
+     if (inputnumber>1) 
+    {
+        alert(inputnumber+"  "+inputnoun+"s")
+    }
+    else if (inputnumber=1)
+    {
+        alert(inputnumber+" "+inputnoun)
+    }
+    else if (isNaN(inputnumber  ))
+    {
+        
+    }
+
+</script> -->
+</body>
+</html>
